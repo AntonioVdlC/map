@@ -1,7 +1,7 @@
 {
   "name": "@antoniovdlc/map",
   "version": "0.0.0",
-  "description": "",
+  "description": "Custom array map functions",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,10 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    ""
+    "array",
+    "map",
+    "select",
+    "pick"
   ],
   "author": "Antonio Villagra De La Cruz",
   "repository": {
@@ -51,5 +54,8 @@
     "typescript": "^4.5.4",
     "vite": "^2.9.1",
     "vitest": "^0.9.3"
+  },
+  "dependencies": {
+    "get-value-key": "^0.1.2"
   }
 }
