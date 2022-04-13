@@ -1,6 +1,6 @@
 {
   "name": "@antoniovdlc/map",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Custom array map functions",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
